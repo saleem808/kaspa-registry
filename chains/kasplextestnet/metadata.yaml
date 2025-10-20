@@ -1,0 +1,14 @@
+# yaml-language-server: $schema=../schema.json
+chainId: 167012
+displayName: Kasplex Testnet
+domainId: 167012
+isTestnet: true
+name: kasplextestnet
+nativeToken:
+  decimals: 18
+  name: KAS
+  symbol: KAS
+protocol: ethereum
+rpcUrls:
+  - http: https://rpc.kasplextest.xyz/
+technicalStack: other
