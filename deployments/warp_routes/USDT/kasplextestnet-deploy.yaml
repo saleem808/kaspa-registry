@@ -1,0 +1,16 @@
+ kasplextestnet:
+      type: collateral
+      token: "0xEcff9AabD043e49C450A73808c7a16Aa96e2000F"
+      owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+      interchainSecurityModule:
+        type: staticAggregationIsm
+        modules:
+          - type: trustedRelayerIsm
+            relayer: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+          - owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+            type: defaultFallbackRoutingIsm
+            domains: {}
+        threshold: 1
+      proxyAdmin:
+        owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+        address: "0xef62Fe0261C47fC98C1D9A7707cc882596f9f970"
