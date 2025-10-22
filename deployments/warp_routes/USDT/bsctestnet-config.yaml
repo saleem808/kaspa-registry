@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../schema.json
+tokens:
+  - chainName: bsctestnet
+    standard: EvmHypSynthetic
+    decimals: 6
+    symbol: USDT
+    name: Tether USD
+    connections:
+      - token: ethereum|kasplextestnet|0xEf36d07698b773676f730fdcE1214B67c87406EA

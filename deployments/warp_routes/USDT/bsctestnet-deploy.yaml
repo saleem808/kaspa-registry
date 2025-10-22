@@ -3,7 +3,7 @@ bsctestnet:
   tokenMetadata:
     name: "Tether USD"
     symbol: "USDT"
-    decimals: 18
+    decimals: 6
   owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
   interchainSecurityModule:
     type: staticAggregationIsm
