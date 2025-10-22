@@ -11,7 +11,7 @@ tokens:
       - token: ethereum|bsctestnet|<BSCTESTNET_ROUTER_ADDRESS>
   - chainName: bsctestnet
     standard: EvmHypSynthetic
-    decimals: 6
+    decimals: 18
     symbol: USDT
     name: Tether USD
     connections:
