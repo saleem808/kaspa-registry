@@ -14,7 +14,7 @@
       proxyAdmin:
         owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
         address: "0x4d1D2adb5307B5911A6316c72662414B1D0DBC7F"
-    kasplextestnet:
+ kasplextestnet:
       isNft: false
       type: synthetic
       owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
