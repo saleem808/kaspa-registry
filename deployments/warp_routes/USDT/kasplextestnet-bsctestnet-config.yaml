@@ -4,15 +4,15 @@
         decimals: 18
         symbol: USDT
         name: Tether USD
-        addressOrDenom: "0x5510d3F4D1D5C8c8CB564f786324ec9026C32087"
+        addressOrDenom: "0x0EDB941Af94c4AeEBfEf368e633a0aaF1161d372"
         connections:
-          - token: ethereum|bsctestnet|0x56F7805EeAD72A2a8a3D5D5aca6Ed4677C1abccc
+          - token: ethereum|bsctestnet|0x1a093bC0c8E9eE558e8251835Ee9E1DCd51aab24
       - chainName: bsctestnet
         standard: EvmHypCollateral
         decimals: 18
         symbol: USDT
         name: Tether USD
-        addressOrDenom: "0x56F7805EeAD72A2a8a3D5D5aca6Ed4677C1abccc"
+        addressOrDenom: "0x1a093bC0c8E9eE558e8251835Ee9E1DCd51aab24"
         collateralAddressOrDenom: "0xb97aDD318e75F98972f95323ce0A035E31784c4E"
         connections:
-          - token: ethereum|kasplextestnet|0x5510d3F4D1D5C8c8CB564f786324ec9026C32087
+          - token: ethereum|kasplextestnet|0x0EDB941Af94c4AeEBfEf368e633a0aaF1161d372
