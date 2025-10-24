@@ -12,3 +12,7 @@ protocol: ethereum
 rpcUrls:
   - http: https://rpc.kasplextest.xyz/
 technicalStack: other
+blocks:
+  confirmations: 1
+  estimateBlockTime: 3
+  reorgPeriod: 9
