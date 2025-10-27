@@ -3959,6 +3959,10 @@ kalychain:
   rpcUrls:
     - http: https://rpc.kalychain.io/rpc
 kasplextestnet:
+  blocks:
+    confirmations: 1
+    estimateBlockTime: 3
+    reorgPeriod: 9
   chainId: 167012
   displayName: Kasplex Testnet
   domainId: 167012
