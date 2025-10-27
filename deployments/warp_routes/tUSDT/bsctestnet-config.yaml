@@ -1,0 +1,18 @@
+ tokens:
+      - chainName: bsctestnet
+        standard: EvmHypSynthetic
+        decimals: 18
+        symbol: tUSDT
+        name: TestUSDT
+        addressOrDenom: "0x91e03276167D03FF5D3Efa0e50bbBc7e33e72Faa"
+        connections:
+          - token: ethereum|sepolia|0x22290aaD6D74731311F26a3B9e8fA4b52e6b8040
+      - chainName: sepolia
+        standard: EvmHypCollateral
+        decimals: 18
+        symbol: tUSDT
+        name: TestUSDT
+        addressOrDenom: "0x22290aaD6D74731311F26a3B9e8fA4b52e6b8040"
+        collateralAddressOrDenom: "0x21906C2F5602f21856b84208E7cC47403Fd13379"
+        connections:
+          - token: ethereum|bsctestnet|0x91e03276167D03FF5D3Efa0e50bbBc7e33e72Faa

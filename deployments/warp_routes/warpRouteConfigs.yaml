@@ -9846,6 +9846,25 @@ tUSD/eclipsemainnet-ethereum:
       name: Eclipse Turbo USD
       standard: EvmHypCollateral
       symbol: tUSD
+tUSDT/bsctestnet:
+  tokens:
+    - addressOrDenom: "0x91e03276167D03FF5D3Efa0e50bbBc7e33e72Faa"
+      chainName: bsctestnet
+      connections:
+        - token: ethereum|sepolia|0x22290aaD6D74731311F26a3B9e8fA4b52e6b8040
+      decimals: 18
+      name: TestUSDT
+      standard: EvmHypSynthetic
+      symbol: tUSDT
+    - addressOrDenom: "0x22290aaD6D74731311F26a3B9e8fA4b52e6b8040"
+      chainName: sepolia
+      collateralAddressOrDenom: "0x21906C2F5602f21856b84208E7cC47403Fd13379"
+      connections:
+        - token: ethereum|bsctestnet|0x91e03276167D03FF5D3Efa0e50bbBc7e33e72Faa
+      decimals: 18
+      name: TestUSDT
+      standard: EvmHypCollateral
+      symbol: tUSDT
 weETHs/eclipsemainnet-ethereum:
   tokens:
     - addressOrDenom: 7Zx4wU1QAw98MfvnPFqRh1oyumek7G5VAX6TKB3U1tcn
