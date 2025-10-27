@@ -1,14 +1,32 @@
- bsctestnet:
+  bsctestnet:
       isNft: false
       type: synthetic
       owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+      interchainSecurityModule:
+        type: staticAggregationIsm
+        modules:
+          - type: trustedRelayerIsm
+            relayer: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+          - owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+            type: defaultFallbackRoutingIsm
+            domains: {}
+        threshold: 1
       proxyAdmin:
         owner: "0xfaD1C94469700833717Fa8a3017278BC1cA8031C"
         address: "0xb12282d2E838Aa5f2A4F9Ee5f624a77b7199A078"
- sepolia:
+  sepolia:
       type: collateral
-      token: "0x21906C2F5602f21856b84208E7cC47403Fd13379"
+      token: "0x09Df701f1f5df83A3BbEf7DA4e74Bb075199d6A4"
       owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+      interchainSecurityModule:
+        type: staticAggregationIsm
+        modules:
+          - type: trustedRelayerIsm
+            relayer: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+          - owner: "0x1900c5B15268F13BB4e462f54F5EDD6834C47348"
+            type: defaultFallbackRoutingIsm
+            domains: {}
+        threshold: 1
       proxyAdmin:
         owner: "0xfaD1C94469700833717Fa8a3017278BC1cA8031C"
         address: "0x97Bbc6bBaFa5Ce3b2FA966c121Af63bD09e940f8"
