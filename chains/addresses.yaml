@@ -2313,6 +2313,7 @@ kalychain:
 kasplextestnet:
   domainRoutingIsmFactory: "0xdCF5815805179c44f033Ab6afa06e21C618f0725"
   interchainAccountRouter: "0x152Adf802fe91e66758f8449cc0b4FDEd3387bBE"
+  interchainGasPaymaster: "0xEF8c1c2f20fd11d0844b6b0B40EB85D1364e7384"
   mailbox: "0xaf06C1917A8A12ab5BE1C1916bB0d21545Cb2F85"
   merkleTreeHook: "0xF1438063a3D1d44C6F6E310E0107cCf9b6e959Ed"
   proxyAdmin: "0xef62Fe0261C47fC98C1D9A7707cc882596f9f970"
